@@ -7,6 +7,7 @@ Account : /contracts/lyon/accounts/{email}
 
 Rent a bike : /contracts/{contractName}/accounts/{accountEmail}/subscriptions/{kiwiId}/trips
 
+https://api.cyclocity.fr/identities/token?grant_type=refresh_token&refresh_token=eyJhbGciOiJub25lIn0.eyJleHAiOjE1NTk0OTM3NzAsImp0aSI6IjRjMzQzMzc4LTBkZWMtNDg3MS04MzVmLTUwZGYzOGI5Y2M4YSJ9.&redirect_uri=https://velov.grandlyon.com/openid_connect_login
 
 Login :
 https://api.cyclocity.fr/identities/users/login

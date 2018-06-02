@@ -69,6 +69,35 @@ Trip
 /contracts/{contract}/accounts/{email}/trips
 /contracts/{contract}/accounts/{email}/subscriptions/{kiwiId}/trips
 
+Bike
+/contracts/{contract}/bikes/ratings
+/contracts/{contract}/accounts/{email}/trips/{tripId}/rate
+
+Campaign
+/contracts/{contract}/campaigns/{id}
+/contracts/{contract}/campaigns
+
+Defect
+/contracts/{contract}/defects
+
+Messaging
+/contracts/{contract}/accounts/{email}/devices
+
+Payment
+/contracts/{contract}/accounts/{email}/balance
+/contracts/{contract}/accounts/{email}/subscriptions/{kiwiId}/balance
+/contracts/{contract}/accounts/{email}/sales
+/contracts/{contract}/accounts/{email}/transactions/{transaction}
+/contracts/{contract}/accounts/{email}/transactions/{transaction}/bill
+/contracts/{contract}/accounts/{email}/transactions
+
+StationBookmarks
+/contracts/{contract}/accounts/{email}/stationbookmarks/{stationId}/
+/contracts/{contract}/stations
+
+
+
+
 ____________
 
 Old jcdeceaux API
